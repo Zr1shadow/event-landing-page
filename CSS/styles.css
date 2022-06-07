@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-family: 'Parisienne';
+    font-size: 30px;
+}
+
+.hero-section {
+    border:1px solid black;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMG/pexels.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:white;
+}
+
+.hero-title{
+    position: absolute;
+    top:5%;
+    left:3%;
+    font-size: 72px;
+    letter-spacing: 1px;
+}
+
+.hero-langs{
+    position: absolute;
+    top:25%;
+    left:6%;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+
+.btn-right{
+    position: absolute;
+    bottom: 5%;
+    right:15%;
+}
+
+.btn-left{
+    position: absolute;
+    bottom: 5%;
+    left:15%;
+}
+
+
+.img-card{
+    width: 100%;
+}
+
+.venue{
+    height: 350px;
+}
+
+.img-venue{
+   height: 100%;
+   width: 100%;
+}
+@media screen and (max-width: 576px) {
+    .hero-title{
+        position: absolute;
+        top:5%;
+        left:3%;
+        font-size: 45px;
+    }
+    
+    .hero-langs{
+        position: absolute;
+        top:15%;
+        left:6%;
+        font-size: 23px;
+    }
+
+    .speakers{
+        flex-direction: column;
+    }
+    .speaker-card{
+        margin-left: 3rem;
+        margin-right: 3rem;
+        
+    }
+}
